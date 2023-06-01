@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		375662CD2A03491C0005FA8B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375662CC2A03491C0005FA8B /* ModelData.swift */; };
+		375662D22A03516A0005FA8B /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375662D12A03516A0005FA8B /* LandmarkRow.swift */; };
+		375662D42A0358390005FA8B /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 375662D32A0358390005FA8B /* landmarkData.json */; };
+		375662D62A035CDD0005FA8B /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375662D52A035CDD0005FA8B /* LandmarkList.swift */; };
+		375662D82A035F950005FA8B /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375662D72A035F950005FA8B /* LandmarkDetail.swift */; };
+		378D05D22A038B250063622F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D05D12A038B250063622F /* LoginView.swift */; };
+		378D05D52A038B420063622F /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = 378D05D42A038B420063622F /* AlertToast */; };
+		378D05D72A038BC20063622F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D05D62A038BC20063622F /* LoginViewModel.swift */; };
+		378D05DA2A038DD30063622F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D05D92A038DD30063622F /* Color.swift */; };
+		378D05DC2A0390060063622F /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D05DB2A0390060063622F /* ViewUtils.swift */; };
+		378D05DE2A03911F0063622F /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D05DD2A03911F0063622F /* Config.swift */; };
+		378D05E02A0393580063622F /* TextCheckAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D05DF2A0393580063622F /* TextCheckAlertView.swift */; };
+		378D05E22A0394110063622F /* TextFieldEamilAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D05E12A0394110063622F /* TextFieldEamilAlertView.swift */; };
 		37EF579E2A0241E800A5DAA7 /* SwiftUiPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF579D2A0241E800A5DAA7 /* SwiftUiPracticeApp.swift */; };
 		37EF57A02A0241E800A5DAA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF579F2A0241E800A5DAA7 /* ContentView.swift */; };
 		37EF57A22A0241EA00A5DAA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37EF57A12A0241EA00A5DAA7 /* Assets.xcassets */; };
@@ -14,6 +27,10 @@
 		37EF57AF2A0241EB00A5DAA7 /* SwiftUiPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF57AE2A0241EB00A5DAA7 /* SwiftUiPracticeTests.swift */; };
 		37EF57B92A0241EB00A5DAA7 /* SwiftUiPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF57B82A0241EB00A5DAA7 /* SwiftUiPracticeUITests.swift */; };
 		37EF57BB2A0241EB00A5DAA7 /* SwiftUiPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF57BA2A0241EB00A5DAA7 /* SwiftUiPracticeUITestsLaunchTests.swift */; };
+		37EF57C82A02436900A5DAA7 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF57C72A02436900A5DAA7 /* MainContentView.swift */; };
+		37EF57CA2A0264EA00A5DAA7 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF57C92A0264EA00A5DAA7 /* CircleImage.swift */; };
+		37EF57CC2A02662D00A5DAA7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF57CB2A02662D00A5DAA7 /* MapView.swift */; };
+		37EF57D22A026D9F00A5DAA7 /* LandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF57D12A026D9F00A5DAA7 /* LandMark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		375662CC2A03491C0005FA8B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		375662D12A03516A0005FA8B /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRow.swift; path = SwiftUiPractice/Resources/LandmarkRow.swift; sourceTree = SOURCE_ROOT; };
+		375662D32A0358390005FA8B /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = landmarkData.json; path = ../../../../Downloads/BuildingListsAndNavigation/Resources/landmarkData.json; sourceTree = "<group>"; };
+		375662D52A035CDD0005FA8B /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		375662D72A035F950005FA8B /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		378D05D12A038B250063622F /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = ../../../TZ/TZ/View/LoginView.swift; sourceTree = "<group>"; };
+		378D05D62A038BC20063622F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		378D05D92A038DD30063622F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		378D05DB2A0390060063622F /* ViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUtils.swift; sourceTree = "<group>"; };
+		378D05DD2A03911F0063622F /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		378D05DF2A0393580063622F /* TextCheckAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCheckAlertView.swift; sourceTree = "<group>"; };
+		378D05E12A0394110063622F /* TextFieldEamilAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldEamilAlertView.swift; sourceTree = "<group>"; };
 		37EF579A2A0241E800A5DAA7 /* SwiftUiPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37EF579D2A0241E800A5DAA7 /* SwiftUiPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiPracticeApp.swift; sourceTree = "<group>"; };
 		37EF579F2A0241E800A5DAA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +73,10 @@
 		37EF57B42A0241EB00A5DAA7 /* SwiftUiPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUiPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37EF57B82A0241EB00A5DAA7 /* SwiftUiPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiPracticeUITests.swift; sourceTree = "<group>"; };
 		37EF57BA2A0241EB00A5DAA7 /* SwiftUiPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37EF57C72A02436900A5DAA7 /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		37EF57C92A0264EA00A5DAA7 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		37EF57CB2A02662D00A5DAA7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		37EF57D12A026D9F00A5DAA7 /* LandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				378D05D52A038B420063622F /* AlertToast in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +105,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		375662CE2A03507A0005FA8B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				37EF57C72A02436900A5DAA7 /* MainContentView.swift */,
+				375662D12A03516A0005FA8B /* LandmarkRow.swift */,
+				37EF57C92A0264EA00A5DAA7 /* CircleImage.swift */,
+				37EF57CB2A02662D00A5DAA7 /* MapView.swift */,
+				37EF579F2A0241E800A5DAA7 /* ContentView.swift */,
+				375662D52A035CDD0005FA8B /* LandmarkList.swift */,
+				375662D72A035F950005FA8B /* LandmarkDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		375662CF2A03509B0005FA8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37EF57D12A026D9F00A5DAA7 /* LandMark.swift */,
+				375662CC2A03491C0005FA8B /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		375662D02A0350AE0005FA8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				375662D32A0358390005FA8B /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		378D05D02A038B010063622F /* TZViews */ = {
+			isa = PBXGroup;
+			children = (
+				378D05D82A038DBA0063622F /* extensions */,
+				378D05D12A038B250063622F /* LoginView.swift */,
+				378D05D62A038BC20063622F /* LoginViewModel.swift */,
+				378D05DD2A03911F0063622F /* Config.swift */,
+			);
+			path = TZViews;
+			sourceTree = "<group>";
+		};
+		378D05D82A038DBA0063622F /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				378D05D92A038DD30063622F /* Color.swift */,
+				378D05DB2A0390060063622F /* ViewUtils.swift */,
+				378D05DF2A0393580063622F /* TextCheckAlertView.swift */,
+				378D05E12A0394110063622F /* TextFieldEamilAlertView.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
 		37EF57912A0241E800A5DAA7 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +181,11 @@
 		37EF579C2A0241E800A5DAA7 /* SwiftUiPractice */ = {
 			isa = PBXGroup;
 			children = (
+				378D05D02A038B010063622F /* TZViews */,
+				375662D02A0350AE0005FA8B /* Resources */,
+				375662CF2A03509B0005FA8B /* Model */,
+				375662CE2A03507A0005FA8B /* Views */,
 				37EF579D2A0241E800A5DAA7 /* SwiftUiPracticeApp.swift */,
-				37EF579F2A0241E800A5DAA7 /* ContentView.swift */,
 				37EF57A12A0241EA00A5DAA7 /* Assets.xcassets */,
 				37EF57A32A0241EA00A5DAA7 /* Preview Content */,
 			);
@@ -143,6 +233,9 @@
 			dependencies = (
 			);
 			name = SwiftUiPractice;
+			packageProductDependencies = (
+				378D05D42A038B420063622F /* AlertToast */,
+			);
 			productName = SwiftUiPractice;
 			productReference = 37EF579A2A0241E800A5DAA7 /* SwiftUiPractice.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +308,9 @@
 				Base,
 			);
 			mainGroup = 37EF57912A0241E800A5DAA7;
+			packageReferences = (
+				378D05D32A038B410063622F /* XCRemoteSwiftPackageReference "AlertToast" */,
+			);
 			productRefGroup = 37EF579B2A0241E800A5DAA7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +329,7 @@
 			files = (
 				37EF57A52A0241EA00A5DAA7 /* Preview Assets.xcassets in Resources */,
 				37EF57A22A0241EA00A5DAA7 /* Assets.xcassets in Resources */,
+				375662D42A0358390005FA8B /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +354,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				378D05DC2A0390060063622F /* ViewUtils.swift in Sources */,
 				37EF57A02A0241E800A5DAA7 /* ContentView.swift in Sources */,
+				378D05DE2A03911F0063622F /* Config.swift in Sources */,
+				37EF57CA2A0264EA00A5DAA7 /* CircleImage.swift in Sources */,
+				378D05E22A0394110063622F /* TextFieldEamilAlertView.swift in Sources */,
+				37EF57CC2A02662D00A5DAA7 /* MapView.swift in Sources */,
+				37EF57D22A026D9F00A5DAA7 /* LandMark.swift in Sources */,
+				378D05DA2A038DD30063622F /* Color.swift in Sources */,
+				375662D62A035CDD0005FA8B /* LandmarkList.swift in Sources */,
+				37EF57C82A02436900A5DAA7 /* MainContentView.swift in Sources */,
+				378D05E02A0393580063622F /* TextCheckAlertView.swift in Sources */,
 				37EF579E2A0241E800A5DAA7 /* SwiftUiPracticeApp.swift in Sources */,
+				375662D22A03516A0005FA8B /* LandmarkRow.swift in Sources */,
+				378D05D72A038BC20063622F /* LoginViewModel.swift in Sources */,
+				378D05D22A038B250063622F /* LoginView.swift in Sources */,
+				375662D82A035F950005FA8B /* LandmarkDetail.swift in Sources */,
+				375662CD2A03491C0005FA8B /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +695,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		378D05D32A038B410063622F /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		378D05D42A038B420063622F /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 378D05D32A038B410063622F /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 37EF57922A0241E800A5DAA7 /* Project object */;
 }
